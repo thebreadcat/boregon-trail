@@ -1,0 +1,22 @@
+{
+  "name": "bored-bored",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "frog vercel-build",
+    "dev": "frog dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.5",
+    "dotenv": "^16.4.5",
+    "frog": "^0.8.6",
+    "hono": "latest",
+    "supabase": "^1.163.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vercel": "latest"
+  }
+}
